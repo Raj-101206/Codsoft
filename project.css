@@ -1,0 +1,27 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(project.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.navbar h1{
+    color: #000;
+    margin-left: 25%;
+    font-size: 80px;
+    font-weight: bold;
+}
+ul{
+    margin-left: 15%;
+    margin-top:5%
+}
+ul li{
+    color: black;
+    font-size: 40px;
+}
+ul img{
+    margin-left: 30%;
+}
