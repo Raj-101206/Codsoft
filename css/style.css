@@ -1,9 +1,10 @@
 .one{
     color: aliceblue;
     background-color:black;
-    padding-top: 30px;
-    padding-left: 5%;
-    margin: top 20px;  
+    padding-right: 50px;
+    gap: 400px; 
+     display: flex;
+    align-items: center;
 
 } 
 
@@ -14,11 +15,15 @@
     width: 10px;
     background-color:white;
     color: aliceblue;
+    object-fit: cover;
     
 }
-.one h2{
-    margin: 0;
+.one p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .two{
      margin-left: 20%;
 }
