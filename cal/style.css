@@ -3,38 +3,89 @@
     padding: 0;
     font-family: sans-serif,'Poppins';
     box-sizing: border-box;
+    background-color: cornsilk;
+
+    
+
+}
+h1{
+   text-align: center; 
+    font-size: 60px;
 }
 .main{
     width: 100%;
     height: 100vh;
-    background-color: #e3f9ff;
+    background-image: url(../cal/bg.jpg);
     align-items: center;
     display: flex;
     justify-content: center;
 }
 .calculator{
-    background:#3a4452;
-    padding: 20px;
-    border-radius:10px ;
+    background:#1f2937;
+    padding: 25px;
+    border-radius:20px ;
+    box-shadow: 0 4px 20px rgba(0,0,0,0,0.2);
+    border: 3px solid blue;
+    margin-bottom: 80px;
+    
+
 }
 .calculator form input{
     border: 0;
     outline: 0;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow:-8px -8px 15px rgba(255,255,255,0.1), 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 20px;
     background: transparent;
     color: #fff;
     cursor: pointer;
     margin: 10px; 
+    
 
 }
+form input.butt{
+
+    color:white;
+    background-color: #4b5563;
+    border: none;
+    border-radius: 20px ;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-size: 25px;
+    
+  
+
+}
+
+form input.operator{
+
+    color:lightseagreen;
+    background-color: #4b5563;
+    border: none;
+    border-radius: 20px ;
+    padding: 15px;
+    font-size: bold;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+
 form .ipop{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background-color: #46484a;
+    border: 10px;
+    border-color: #f6f6f7;
+    border-radius: 20px;
 
 }
 form .ipop  input{
@@ -42,4 +93,6 @@ form .ipop  input{
     text-align: right;
     flex: 1;
     font-size: 40px;
+    color: #f0f4f8;
+    font-family: Arial, Helvetica, sans-serif;
 }
